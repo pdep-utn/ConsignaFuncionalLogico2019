@@ -8,7 +8,7 @@ data Producto = UnProducto {
 data Pedido = UnPedido {
 	cliente :: String,
 	nombreProducto:: String,
-	cantidad :: String} deriving Show
+	cantidad :: Int} deriving Show
 
 data PersonaACargo :: Trabajador {
 	descripcion:: String
