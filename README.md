@@ -22,7 +22,6 @@ Se quiere implementar un sistema de información para administrar la tarea, pero
 
 **Funcional:** A partir de todos los pedidos recibidos y de saber quién está a cargo de la fabrica en ese momento, encontrar aquellos que se puedan cumplir, teniendo en cuenta que quien está a cargo puede ser:
 
-- tecnico responsable: Se fija que haya stock suficiente para sus componentes. 
 - vendedor de baratijas: Se fija que una unidad del producto a fabricar sea barata (el monto de referencia puede ser diferente para cada vendedor) 
 - ingeniero de componentes: Se fija que la cantidad total de unidades necesarias de componentes sea menor a 100. 
 - gerente vende humo: Siempre dice que se puede fabricar.
